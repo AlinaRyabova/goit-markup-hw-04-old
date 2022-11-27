@@ -101,7 +101,9 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color);
-}
+    display: flex;
+    }
+
 .header-icons{
     margin-right: 10px;
     display: inline-block;
@@ -519,6 +521,10 @@ body{
     display: inline-block;
     align-items: baseline;
 }
+.footer-soc{
+    display: inline-block;
+    margin-right: 70px;
+}
 .footer-title{
     font-family: 'Roboto';
     font-style: normal;
@@ -528,5 +534,6 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
