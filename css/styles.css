@@ -104,11 +104,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    }
-
+    padding-top: 32px;
+    padding-bottom: 32px;
+ }
 .header-icons{
     margin-right: 10px;
-   
 }
 .header-contacts{
     display: flex;
@@ -118,7 +118,6 @@ body{
 .header-text :hover{
     color: var(--primary-link-color);
 }
-
 .header-text:hover,
 .header-text:focus,
 .header-text-contacts:hover,
@@ -126,7 +125,7 @@ body{
     color:  var(--primary-link-color);
 }
 .header-icons{
-    fill: currentColor;
+fill: currentColor;
 }
 
 /*--------------------PORTFOLIO--------------------*/
